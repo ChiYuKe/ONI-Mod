@@ -12,5 +12,6 @@ namespace minitoolbox.储存配置项.气库
         public static bool 过热 = SingletonOptions<ConfigurationItem>.Instance.GasReservoir_Overheat ? false : true;
         public static bool 地基 = SingletonOptions<ConfigurationItem>.Instance.GasReservoir_foundation ? false : true;
         public static float 容量 = SingletonOptions<ConfigurationItem>.Instance.GasReservoir_Capacity;
+        
     }
 }

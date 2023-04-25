@@ -34,7 +34,7 @@ namespace minitoolbox
         public static class 储物箱
         {
             public static LocString 容量 = "储物箱容量 /kg";
-            public static LocString 过热 = "储物箱不会过热";
+            //public static LocString 过热 = "储物箱不会过热";
         }
         public static class 气库
         {

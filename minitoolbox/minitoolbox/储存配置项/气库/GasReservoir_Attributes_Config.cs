@@ -24,6 +24,7 @@ namespace minitoolbox.储存配置项.气库
         {
             //气库是否会过热
             __result.Overheatable = 气库.过热;
+            Debug.LogFormat("MinBox::已调整气库容量为：{0} kg,气库是否需要地基：{1},气库是否会过热：{2}", 气库.容量, 气库.地基, 气库.过热);
         }
     }
 }

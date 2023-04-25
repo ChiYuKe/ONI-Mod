@@ -22,6 +22,7 @@ namespace minitoolbox.运输配置项.运输轨道
                 if (flag)
                 {
                     list[i].operand = SingletonOptions<ConfigurationItem>.Instance.Transport_Track_Capacity;
+                    Debug.LogFormat("MinBox::已调整轨道运输容量为{0}kg", list[i].operand);
                 }
             }
             return list.AsEnumerable<CodeInstruction>();
