@@ -21,6 +21,7 @@ namespace minitoolbox.Power_Systems.PowerTransformer_Changes
             __result.SelfHeatKilowattsWhenActive = (Generator_Heat ? 1f : 0f);
             __result.ExhaustKilowattsWhenActive = 0f;
             __result.SelfHeatKilowattsWhenActive = (Generator_Heat ? 1f : 0f);
+            Debug.LogFormat("已调整大变压器自热为：{0}", 变压器.自热);
 
 
         }
@@ -36,6 +37,7 @@ namespace minitoolbox.Power_Systems.PowerTransformer_Changes
             __result.SelfHeatKilowattsWhenActive = (Generator_Heat ? 1f : 0f);
             __result.ExhaustKilowattsWhenActive = 0f;
             __result.SelfHeatKilowattsWhenActive = (Generator_Heat ? 1f : 0f);
+            Debug.LogFormat("已调整小变压器自热为：{0}", 变压器.自热);
 
 
         }

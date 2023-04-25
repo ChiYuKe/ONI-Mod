@@ -23,6 +23,7 @@ namespace minitoolbox.Power_Systems.ElectricWire_Changes
                     //电线
                 case Wire.WattageRating.Max1000:
                     __result = 电源线.电线;
+                    Debug.LogFormat("已调整最大电线负载为{0}", 电源线.电线);
                     break;
                     //导线
                 case Wire.WattageRating.Max2000:
