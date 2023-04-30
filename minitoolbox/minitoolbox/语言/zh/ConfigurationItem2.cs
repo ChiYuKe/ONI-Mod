@@ -15,6 +15,10 @@ namespace minitoolbox
         [JsonProperty]
         public bool 电池舱 { get; set; }
 
+        [Option("minitoolbox.其它2.睡觉.描述", "", null)]
+        [JsonProperty]
+        public bool NoWantSleepPatch { get; set; }
+
         [Option("minitoolbox.其它2.超级气压服.描述", "气压服各项属性显著提升！", null, Format = "F0")]
         [JsonProperty]
         public bool super_atmosuit { get; set; }
@@ -534,6 +538,7 @@ namespace minitoolbox
 
         public ConfigurationItem2()
         {
+            this.NoWantSleepPatch = false;//复制人是否睡觉
             this.super_atmosuit = false;
             this.电池舱 = false;
             this.电池舱容量 = 100f;

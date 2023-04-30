@@ -10,6 +10,9 @@ namespace minitoolbox
     [RestartRequired]
     public class ConfigurationItem : SingletonOptions<ConfigurationItem>
     {
+        [Option("minitoolbox.其他.睡觉.描述", "", null)]
+        [JsonProperty]
+        public bool NoWantSleepPatch { get; set; }
 
         [Option("minitoolbox.建筑.电池舱.漏电", "", null, Format = "F0")]
         [JsonProperty]
@@ -534,6 +537,7 @@ namespace minitoolbox
 
         public ConfigurationItem()
         {
+            this.NoWantSleepPatch = false; 
             this.super_atmosuit = false;
             this.电池舱 = false;
             this.电池舱容量 = 100f;

@@ -204,5 +204,9 @@ namespace minitoolbox
         {
             public static LocString 描述 = "Wipe water ignores liquid mass";
         }
+        public static class 睡觉
+        {
+            public static LocString 描述 = "Duplicants don't need to sleep";
+        }
     }
 }

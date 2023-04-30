@@ -204,5 +204,9 @@ namespace minitoolbox
         {
             public static LocString 描述 = "擦水无视液体质量";
         }
+        public static class 睡觉
+        {
+            public static LocString 描述 = "复制人不需要睡觉";
+        }
     }
 }
