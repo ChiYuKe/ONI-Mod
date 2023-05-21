@@ -66,6 +66,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="世界配置项\元素辐射量\Class1.cs" />
     <Compile Include="生物配置项\复制人\睡觉\Class1.cs" />
     <Compile Include="语言\en\ConfigurationItem.cs" />
     <Compile Include="语言\en\Mod_Strings.cs" />

@@ -202,11 +202,6 @@ namespace ElementConvertTag.ElementConvertTag
             complexRecipe6.nameDisplay = ComplexRecipe.RecipeNameDisplay.Result;
             ComplexRecipeManager.Get().AddObsoleteIDMapping(obsolete_id6, text6);
 
-
-
-
-         
-
             ComplexRecipe.RecipeElement[] array13 = new ComplexRecipe.RecipeElement[]
             {
                 new ComplexRecipe.RecipeElement(tag20, 20f),

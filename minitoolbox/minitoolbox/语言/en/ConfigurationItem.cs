@@ -545,7 +545,7 @@ namespace minitoolbox
             this.Refrigerator_Electricity = 120f;//冰箱功耗
             this.Refrigerator_Submerge = false;//冰箱淹没
             this.Refrigerator_Overheat = false;//冰箱过热
-            this.StorageBox_Capacity = 2000f;//箱子容量
+            this.StorageBox_Capacity = 20000f;//箱子容量
             //this.StorageBox_Overheat = false;//箱子过热
             this.GasReservoir_Capacity = 150f;//气库容量
             this.GasReservoir_foundation = false;//气库必须建造在地面上
